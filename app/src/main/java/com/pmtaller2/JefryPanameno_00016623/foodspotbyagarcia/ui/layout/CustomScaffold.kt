@@ -46,7 +46,6 @@ fun CustomScaffold () {
     NavItem("My orders", Icons.Filled.Fastfood, "orders"),
   )
 
-
   fun onItemSelected(currentItem: String) {
     selectedItem = currentItem
     title = when (currentItem) {
