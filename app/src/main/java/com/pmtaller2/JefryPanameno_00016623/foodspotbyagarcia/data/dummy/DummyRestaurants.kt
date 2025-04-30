@@ -6,22 +6,22 @@ import com.pmtaller2.JefryPanameno_00016623.foodspotbyagarcia.data.model.Restaur
 val restaurants = listOf(
     Restaurant(
         id = 1,
-        name = "Pizza Paradise",
+        name = "Pizza Hut",
         description = "Delicious handmade pizzas with fresh ingredients.",
-        imageUrl = "https://example.com/pizza_paradise.jpg",
+        imageUrl = "https://1000marcas.net/wp-content/uploads/2020/01/Pizza-Hut-Logo-1999.jpg",
         categories = listOf("Pizzas"),
         menu = listOf(
             Dish(
                 id = 1,
                 name = "Margherita Pizza",
                 description = "Classic pizza with tomato, mozzarella, and basil.",
-                imageUrl = "https://example.com/margherita.jpg"
+                imageUrl = "https://imag.bonviveur.com/pizza-margarita.webp"
             ),
             Dish(
                 id = 2,
                 name = "Pepperoni Pizza",
                 description = "Spicy pepperoni with melted cheese.",
-                imageUrl = "https://example.com/pepperoni.jpg"
+                imageUrl = "https://cdn.unotv.com/images/2024/09/pizza-pepperoni-no-existe-italia-152140.jpeg"
             )
         )
     ),
@@ -114,7 +114,7 @@ val restaurants = listOf(
         name = "Pasta House",
         description = "Homemade pasta dishes with rich flavors.",
         imageUrl = "https://example.com/pasta_house.jpg",
-        categories = listOf("Italian"),
+        categories = listOf("Italian", "Pizzas"),
         menu = listOf(
             Dish(
                 id = 11,

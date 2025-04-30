@@ -1,4 +1,4 @@
-package com.agarcia.myfirstandroidapp.ui.navigations
+package com.pmtaller2.JefryPanameno_00016623.foodspotbyagarcia.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController

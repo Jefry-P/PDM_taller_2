@@ -40,20 +40,6 @@ fun CustomTopBar(
       }
     },
     actions = {
-      Row() {
-        IconButton(onClick = {}) {
-          Icon(
-            imageVector = Icons.Filled.Search,
-            contentDescription = "Back",
-          )
-        }
-        IconButton(onClick = {}) {
-          Icon(
-            imageVector = Icons.Outlined.AccountCircle,
-            contentDescription = "Back",
-          )
-        }
-      }
     },
 //    colors = TopAppBarDefaults.topAppBarColors(
 //      containerColor = MaterialTheme.colorScheme.primary,
