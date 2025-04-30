@@ -27,106 +27,106 @@ val restaurants = listOf(
     ),
     Restaurant(
         id = 2,
-        name = "Taco Fiesta",
+        name = "LacaLaca",
         description = "Authentic Mexican tacos and more.",
-        imageUrl = "https://example.com/taco_fiesta.jpg",
+        imageUrl = "https://laca-laca.com/Content/img/historia2023.png",
         categories = listOf("Mexican Food"),
         menu = listOf(
             Dish(
                 id = 3,
                 name = "Beef Tacos",
                 description = "Soft tortillas filled with seasoned beef.",
-                imageUrl = "https://example.com/beef_tacos.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/2560px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg"
             ),
             Dish(
                 id = 4,
                 name = "Chicken Tacos",
                 description = "Grilled chicken with fresh toppings.",
-                imageUrl = "https://example.com/chicken_tacos.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/1/10/Tacos_de_carne_asada_con_guacamole_y_cilantro.png"
             )
         )
     ),
     Restaurant(
         id = 3,
-        name = "Chicken Delight",
+        name = "Pollo Campero",
         description = "The best fried and grilled chicken in town.",
-        imageUrl = "https://example.com/chicken_delight.jpg",
+        imageUrl = "https://www.revistaeyn.com/binrepository/1350x900/75c0/1200d900/none/26086/GXIW/POLLOCAMPERO-GUATEMALA1_EN839948_MG233393853.jpg",
         categories = listOf("Chicken"),
         menu = listOf(
             Dish(
                 id = 5,
                 name = "Fried Chicken",
                 description = "Crispy and juicy fried chicken.",
-                imageUrl = "https://example.com/fried_chicken.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/9/91/Kfc_chicken_potato.jpg"
             ),
             Dish(
                 id = 6,
                 name = "Grilled Chicken",
                 description = "Perfectly seasoned grilled chicken.",
-                imageUrl = "https://example.com/grilled_chicken.jpg"
+                imageUrl = "https://assets.epicurious.com/photos/5b843bce1abfc56568396369/1:1/w_2240,c_limit/Grilled-Chicken-with-Mustard-Sauce-and-Tomato-Salad-recipe-2-22082018.jpg"
             )
         )
     ),
     Restaurant(
         id = 4,
-        name = "Burger Haven",
+        name = "Burger King",
         description = "Gourmet burgers with unique flavors.",
-        imageUrl = "https://example.com/burger_haven.jpg",
+        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Burger_King_logo_%281999%E2%80%932020%29.svg/1024px-Burger_King_logo_%281999%E2%80%932020%29.svg.png",
         categories = listOf("Burgers"),
         menu = listOf(
             Dish(
                 id = 7,
                 name = "Classic Cheeseburger",
                 description = "Beef patty with cheese, lettuce, and tomato.",
-                imageUrl = "https://example.com/cheeseburger.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Burger_King_Quad_Stacker_cheeseburger.jpg/2560px-Burger_King_Quad_Stacker_cheeseburger.jpg"
             ),
             Dish(
                 id = 8,
                 name = "Bacon Burger",
                 description = "Juicy burger topped with crispy bacon.",
-                imageUrl = "https://example.com/bacon_burger.jpg"
+                imageUrl = "https://s7d1.scene7.com/is/image/mcdonaldsstage/DC_202302_3251-999_BaconCheeseburger_1564x1564?wid=1564&hei=1564&dpr=off"
             )
         )
     ),
     Restaurant(
         id = 5,
-        name = "Sushi World",
+        name = "Sushi Itto",
         description = "Fresh sushi and Japanese cuisine.",
-        imageUrl = "https://example.com/sushi_world.jpg",
+        imageUrl = "https://plazamalta.com.sv/wp-content/uploads/2020/12/Sushiitto.png",
         categories = listOf("Japanese"),
         menu = listOf(
             Dish(
                 id = 9,
                 name = "California Roll",
                 description = "Crab, avocado, and cucumber roll.",
-                imageUrl = "https://example.com/california_roll.jpg"
+                imageUrl = "https://plazamalta.com.sv/wp-content/uploads/2022/11/sushi1.jpg"
             ),
             Dish(
                 id = 10,
                 name = "Spicy Tuna Roll",
                 description = "Tuna with a spicy kick.",
-                imageUrl = "https://example.com/spicy_tuna.jpg"
+                imageUrl = "https://plazamalta.com.sv/wp-content/uploads/2022/11/sushi3.jpg"
             )
         )
     ),
     Restaurant(
         id = 6,
-        name = "Pasta House",
+        name = "Pastaria",
         description = "Homemade pasta dishes with rich flavors.",
-        imageUrl = "https://example.com/pasta_house.jpg",
+        imageUrl = "https://tb-static.uber.com/prod/image-proc/processed_images/702ce3dd189e2569fe3ec25c3000277f/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
         categories = listOf("Italian", "Pizzas"),
         menu = listOf(
             Dish(
                 id = 11,
                 name = "Spaghetti Carbonara",
                 description = "Creamy pasta with pancetta and parmesan.",
-                imageUrl = "https://example.com/carbonara.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Classic-spaghetti-carbonara.jpg/500px-Classic-spaghetti-carbonara.jpg"
             ),
             Dish(
                 id = 12,
                 name = "Lasagna",
                 description = "Layered pasta with meat and cheese.",
-                imageUrl = "https://example.com/lasagna.jpg"
+                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Lasagna_food.jpg/960px-Lasagna_food.jpg"
             )
         )
     )

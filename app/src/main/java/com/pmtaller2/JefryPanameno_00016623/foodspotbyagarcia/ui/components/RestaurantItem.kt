@@ -25,12 +25,12 @@ import coil3.compose.AsyncImage
 import com.pmtaller2.JefryPanameno_00016623.foodspotbyagarcia.data.model.Restaurant
 
 @Composable
-fun RestaurantItem(restaurant: Restaurant, onMovieClick: (Int) -> Unit) {
+fun RestaurantItem(restaurant: Restaurant, onRestaurantClick: (Int) -> Unit) {
     Card (
         shape = RoundedCornerShape(12.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
-        modifier = Modifier.width(200.dp).clickable { onMovieClick(restaurant.id) }
+        modifier = Modifier.width(200.dp).clickable { onRestaurantClick(restaurant.id) }
     ) {
         Column (modifier = Modifier.padding(12.dp)) {
             AsyncImage(
@@ -40,7 +40,7 @@ fun RestaurantItem(restaurant: Restaurant, onMovieClick: (Int) -> Unit) {
                     .fillMaxWidth()
                     .height(150.dp)
                 .clip(RoundedCornerShape(8.dp)),
-                contentScale = ContentScale.Crop
+                contentScale = ContentScale.Fit
             )
 
             Spacer(modifier = Modifier.height(4.dp))

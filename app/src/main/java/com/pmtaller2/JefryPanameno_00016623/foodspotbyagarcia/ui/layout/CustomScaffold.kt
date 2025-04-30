@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Fastfood
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Scaffold
@@ -42,7 +43,7 @@ fun CustomScaffold () {
   val navItems = listOf(
     NavItem("FoodSpot", Icons.Filled.Home, "restaurantList"),
     NavItem("Search", Icons.Filled.Search, "search"),
-    NavItem("My orders", Icons.Filled.Search, "orders"),
+    NavItem("My orders", Icons.Filled.Fastfood, "orders"),
   )
 
 

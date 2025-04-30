@@ -62,7 +62,7 @@ fun DishItem(
                 Text(
                     text = dish.description,
                     style = MaterialTheme.typography.bodySmall,
-                    color = Color.Black,
+                    color = MaterialTheme.colorScheme.primaryContainer,
                     modifier = Modifier.padding(top = 4.dp)
                 )
 
